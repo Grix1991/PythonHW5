@@ -9,5 +9,5 @@ def f(A, B):
     if B == 0:
         return 1
     return f(A, B-1) * A
-result = f(A, B)
+result = ("Результат = " + str(f(A, B)))
 print(result)
